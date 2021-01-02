@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="90" height="70" tilewidth="16" tileheight="16" infinite="0" nextlayerid="21" nextobjectid="49">
+ <tileset firstgid="1" source="groundd.tsx"/>
+ <tileset firstgid="37" source="fence.tsx"/>
+ <tileset firstgid="85" source="house.tsx"/>
+ <tileset firstgid="133" source="shop.tsx"/>
+ <tileset firstgid="181" source="honey tree.tsx"/>
+ <tileset firstgid="201" source="box pond.tsx"/>
+ <tileset firstgid="213" source="colours.tsx"/>
+ <layer id="16" name="ground" width="90" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztmutSwjAQRgNqUSniBa+jWJT3f0aXmWaoYRNSJm02y/fjG+sJ0GZ72IbCxBgzpVxQLilXlAnDKvBozo3PKNeUG8otZe5hNXg058a52uf2oXQOn+GzJg6f4bMmDp/hsyYOn+GzJg6f9fjMjVcB7hvL7aR0n7n9105dqw53x6Q4WaLPtSdzhlU99gWfTz9nnOM5PC/N577HyjnO1R0+xx9XaIzbTzfw+XDcd1yhY/bty7cNn9PVoHb2e84+u6+/ofwUkF9nLrFzluLzlvJO+aY07faHwP/Xzlxi5yzF5207p918PgXny5Tls/uYXZ2tL7Hn7ZTrZmou3WeubzRtnWPm6tvH2J8Hpfvcff2J2ffn9Ynn0P38Ap8PfZ6ZfX9ee87hA+VeQB5NWT5z10Hbn7nnPlPuKCvKU5vd9mJAzrGlKctnd6zbn7nn2jrbubv1GYJzbGnK8pmrs+3PIZ/HqK/lHNPgs+3P8HlYn2P6M3xOt372+dydt68eKTnHSvOZW2/E9Gffe3oIzrHSfHYfE9ufJazrSvI5dH9jyjzXvQ6O8ZdjGnxuDNYbY/hs+3PIZ6w3xunPOX22dS7dZ6yf5fXnnNfB0n3uc3/D9XEIzjENPvfpz/B52P4sYV1Xus+NOe6zrYv9POzWKyXnmAafj/Xnhfn/fl45LDXnmAafQ/35lfIiIG+mfJ9D/Xms76+1fd/dtz+n/t3Fufx+o29/zu2tJp+790WleavJ58bA59Q+x/LcvqbiuXyO5bl9TcXhM3yGz/AZPsvk8Bk+w+fxfNbMJfmsmcNn+KyJw2f4rInDZ/isicNn+KyJc+N/ae7M2w==
+  </data>
+ </layer>
+ <layer id="17" name="fence" width="90" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt26tOBEEQhtF+Ge7LzbBmMYsBA4b3fxZKDlkzovL3THJOUqZUpcXnegwAAAAAyHurua25q7mvua652dnutf1V+p1qnmqea15qDjWPO9sd21+l33n2AQ3eZx+wwufsAxp8zD5ghe/ZBzT4mn3ACqfZBzTQ5wx9ztDnDH3O0OcMfc7Q5wx9ztDnDH3O0OcMfc7Q5wx9ztDnDH3O0OcMfc7Q5wx9ztDnDH3O0OcMfc7Q5wx9ztDnDH3O0OcMfc7YS5+Xfz2Wrsblf5At7vbQ59/x/6/H0sO4/A+yxd1P12MAAAAAAADAxvwBaSMyrw==
+  </data>
+ </layer>
+ <layer id="18" name="buildings" width="90" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztzmkz1WEch/HzJgkVBy2WoixpsaVVkiyF0EZC2rQIFUJSSL2irmedkWF0G/eDc10znyf/e/6/+SYSZmZmZmZmZma2XRnIxAFkIRs5Ke85W/20T13BVVzDdTTjRsQ9IR3EIRxGLvKQTHlP/vvLjr3De0ziQ8C2FtxEK26hDbcD7sUsHwUoxBEcxbHAm1OYxgw+BtxpRwc60YU7uBu4LVbHUYRilKAUJwJvfsJnzGIu4E43etCLe+hDf+C2WJ1EGcpxCqdREXhzHl+wgMWAOwO4jwd4iEd4HLgtVpWoQjXOoAZnA28u4SuW8W3T9900iCE8wTCeYiRwW6zO4TwuoBZ1qI+66G+jGMMzjOM5XkRd9P81oBEX0YRLuBxzUEov8QqvMYE3eBt1kZmZpUs/sBp7RBr0ExuxR5jtUSv4HntEGrSG9dgj0qBf+B17hJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmVlAfwAh5UoZ
+  </data>
+ </layer>
+ <objectgroup id="7" name="collision">
+  <object id="28" x="332.364" y="214.545" width="780" height="24.3333"/>
+  <object id="30" x="325.697" y="210.545" width="11.4167" height="601.333"/>
+  <object id="31" x="327.03" y="790.878" width="57.3333" height="19.6667"/>
+  <object id="32" x="433.697" y="795.628" width="678.667" height="16.25"/>
+  <object id="33" x="1103.2" y="210.545" width="10.5" height="601.333"/>
+  <object id="34" x="1010.03" y="240.545" width="90.3333" height="62.3333"/>
+  <object id="35" x="741.614" y="246.545" width="20" height="35.6667"/>
+  <object id="36" x="383.697" y="227.879" width="84.6667" height="81.3333"/>
+  <object id="37" x="481.09" y="385.939" width="29.3333" height="30.1212"/>
+  <object id="39" x="480.53" y="433.879" width="30.75" height="44.25"/>
+  <object id="40" x="1030" y="299" width="59" height="17"/>
+ </objectgroup>
+ <objectgroup id="20" name="doors" visible="0">
+  <object id="42" x="407" y="284" width="18.25" height="28.25">
+   <properties>
+    <property name="type" value="house"/>
+   </properties>
+  </object>
+  <object id="43" x="1044" y="282.5" width="24.25" height="35">
+   <properties>
+    <property name="type" value="shop"/>
+   </properties>
+  </object>
+  <object id="44" x="740.5" y="259" width="22.5" height="27">
+   <properties>
+    <property name="type" value="honey tree"/>
+   </properties>
+  </object>
+  <object id="46" x="385.75" y="811.25" width="45" height="21.25">
+   <properties>
+    <property name="type" value="exit"/>
+   </properties>
+  </object>
+  <object id="47" x="480.182" y="384.667" width="31.8182" height="31.0303">
+   <properties>
+    <property name="type" value="shipping box"/>
+   </properties>
+  </object>
+  <object id="48" x="480" y="432" width="32.6667" height="48.3333">
+   <properties>
+    <property name="type" value="water"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
